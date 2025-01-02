@@ -1,4 +1,7 @@
-let number = prompt("Enter a number")
+//A function is Even 
+// Checks if a given number is even.
+
+let number = prompt("Enter a number");
 
 function isEven(){
 if (number % 2 == 0){

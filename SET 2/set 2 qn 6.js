@@ -1,13 +1,13 @@
-/*let num;
-for (let i = 0; i <= num;i++){
-    ans = (i)*(i++);
-    
-    console.log(ans);
-    }
-    num = 7;
-    */
-    for (let i = 0; i <= 5; i++){
-        num = i*i++;
-        console.log(num);
-        
-        }
+
+//A for loop 
+// to calculate the factorial of a number n
+
+
+function factorial(number){
+    let num = 1;
+for (let i = 1; i <= number; i++)
+    num *= i;
+    return num;
+}
+
+console.log(factorial(5));

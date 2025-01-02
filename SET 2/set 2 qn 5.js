@@ -1,8 +1,9 @@
-/*
-let number = 0;
-while(number <= 10){
-    
+//A while loop to print the first 5 multiples of 3.
+let number = 10;
+while(i < number){
+    multiply = number % 3;
     console.log(number);
-    number+3;
+    i++;
 }
-*/
+console.log();
+//console.log(multiply(number));
