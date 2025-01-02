@@ -1,22 +1,18 @@
-
+//A program that checks two variables 
+// have the same value and type.
 let variable1 = prompt("Enter first variable");
 let variable2 = prompt("Enter second variable");
 
 //check = (variable1 === variable2);
-function check(){
+function check(variable1, variable2){
 if(typeof variable1 === typeof variable2){
-    return matching;
+    console.log("matching");
 } else {
-    return not-matching;
+    console.log("Not-Matching");
 }
 }
+console.log(check());
+console.log(check("mna",453));
+console.log(check("man","man"));
 
 
-
-/*
-if(variable1 === variable2){
-    return "true";
-} else {
-    return "false";
-}
-*/
