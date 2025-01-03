@@ -3,5 +3,5 @@ let user ={a : 1, b : 2, c : 3 }
     //return [i];
   //  return user;
 //}
-
-console.log(user)
+separate = user.split(",");
+console.log(separate)
