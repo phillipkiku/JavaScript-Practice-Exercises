@@ -1,27 +1,9 @@
-/*
-let arrayNumbers = [2,39,2,10,2,33];
+// A program that filters
+// out all numbers greater than 10
+// from an array
+// returns the result.
 
-function greaterThan10(){  
-    let greater10 = [];
-
-for(let element of array){
-    if (element > 10){
-        greater10.push(element);
-    } else {
-        console.log("Array doesnot have valueas greater than 10")
-    }
-}
-return {
-    greaterValues : greater10,
-}
-
-}
-console.log(greaterThan10(arrayNumbers));
-*/
-
-let arrayNumbers = [3,17,20,4,8];
-
-function sortArray(){
+function sortArray(arrayNumbers){
     let greater = [];    
     
     for (let i = 0; i<arrayNumbers.length; i++){
@@ -30,11 +12,16 @@ function sortArray(){
             greater.push(currentElement);
         }
          else {
-            console.log("Doesnot belong anywhere");
+            console.log("Array doesnot have values greater than 10");
         }
     }
     return {
         greaterNumbers : greater,
     }
 }
+arrayNumbers = [2,4,11,25,9,5]
+console.log(sortArray(arrayNumbers));
+//console.log(sortArray(arrayNumbers[2,22,10,2]));
+
+arrayNumbers = [2,4,,9,5]
 console.log(sortArray(arrayNumbers));
