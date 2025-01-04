@@ -1,6 +1,7 @@
 // A function findMax
 // that returns the largest number from an array of numbers.
 
+// Function to get the largest value.
 
 function findMax(numberArray) {
     let maxNumber = numberArray[0];                      

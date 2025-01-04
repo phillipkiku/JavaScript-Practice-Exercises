@@ -3,8 +3,12 @@
 // Develop a function findMinMax that takes an array of numbers and returns an object with the smallest and largest numbers. 
 // Example output: { min: 1, max: 10 }
 
+// Declaring the variables for the array.
+
 let arrayOne = [1,2,3,4,5];
 let arrayTwo = [1,2,3,4,5];
+
+// Function toe
 
 function findMinMax(arrayOne,arrayTwo){
     if(arrayOne === arrayTwo){

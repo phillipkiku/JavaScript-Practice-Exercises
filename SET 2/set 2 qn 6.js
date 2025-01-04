@@ -1,7 +1,7 @@
-
-//A for loop 
+// A for loop 
 // to calculate the factorial of a number n
 
+// Function to run the factorial of number.
 
 function factorial(number){
     let num = 1;

@@ -2,6 +2,8 @@
 // and capitalizes the first letter of each word. 
 // Example input: "hello world". Output: "Hello World".
 
+// Declaring varibales of strings
+
 let sentence = "hello world";
 let capital = sentence.toLocaleUpperCase().charAt(0);
 let capital2 = sentence.charAt(0).toLocaleUpperCase().split('').concat(sentence.charAt(1)).join("");

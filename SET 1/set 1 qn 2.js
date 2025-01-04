@@ -1,9 +1,13 @@
 //A program that multiplies a variable by 5 using the *= operator.
-let variable = prompt ("Enter the a number variable");
 
-    answer = 5*variable;
-    console.log(answer);
+// declaring how the values will be entered.
 
+let variable = prompt("Enter the a number variable");
+
+// defining how the calculation will be made.
+
+answer = 5 * variable;
+console.log(answer);
 
 /*
 let variable = prompt ("Enter the a number variable");

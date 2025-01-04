@@ -1,6 +1,8 @@
-//CODE 1
+// CODE 1
 // Build a function that takes a string 
 // and checks if it’s a palindrome (thesame forwards and backward). 
+
+// Function to check values of the words array.
 
 function firstPalindrome(words){
     let paraWords = [];

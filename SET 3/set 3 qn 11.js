@@ -3,6 +3,8 @@
 // from an array
 // returns the result.
 
+// Function checks numbers are greater than 10
+
 function sortArray(arrayNumbers){
     let greater = [];    
     

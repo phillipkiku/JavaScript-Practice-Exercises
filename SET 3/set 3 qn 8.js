@@ -3,8 +3,12 @@
 // checks if the number exists in the array, and
 // returns a message "Found" or "Not Found"
 
+// Declaring the varibales for the number and array
 let number;
 let numberArray =[];
+
+// function to check the number through the array.
+
 function checkNumber(){
     if (numberArray.includes(number)){
         console.log("Found");

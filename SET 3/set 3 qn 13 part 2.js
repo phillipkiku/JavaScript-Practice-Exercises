@@ -2,12 +2,14 @@
 // and returns the result as an object.
 // Example input: "hello". Output: { h: 1, e: 1, l: 2, o: 1 }.
 
+// Declaring the string variable
+
 let word = "hello" ;
 check = word.split('');
 
 console.log(check);
 
-//function
+//function to check number of times the value appears.
 
 function frequency(word) {
     let count = 0;

@@ -2,7 +2,8 @@
 // that removes duplicate values from an array.
 // Example input: [1, 2, 2, 3]. Output: [1, 2, 3].
 
-//let duplicateArray;
+// Function to check duplicate values.
+
 function check(duplicateArray){
     let newArrray = [];
     for(i = 0; i < duplicateArray.length-1; i++){
