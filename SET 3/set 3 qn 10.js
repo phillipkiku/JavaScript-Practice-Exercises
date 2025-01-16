@@ -5,8 +5,7 @@
 
 // Declaring the variables for the array.
 
-let arrayOne = [1,2,3,4,5];
-let arrayTwo = [1,2,3,4,5];
+/*
 
 // Function toe
 
@@ -18,3 +17,24 @@ function findMinMax(arrayOne,arrayTwo){
         
     }
 }
+*/
+
+
+function findMinMax(){
+    let array = [-1,2,3,4,5];
+    let min = 0;
+    let max = 0;
+
+    for(let i = 0; i < array.length; i++ ){
+        if(array[i] > max){
+            max = array[i];   
+
+        } 
+        if(array[i] < min){
+            min = array[i];
+        }
+    }
+console.log(`The Min is ${min} and Max is ${max}`);
+
+}
+findMinMax();

@@ -1,9 +1,9 @@
-// Write a program that calculates the frequency of each character in a string 
+// Write a program that calculates the frequency of each character in a string
 // and returns the result as an object.
 // Example input: "hello". Output: { h: 1, e: 1, l: 2, o: 1 }.
 
 // Declaring the string variable
-
+/*
 let word = "hello" ;
 check = word.split('');
 
@@ -24,4 +24,18 @@ function frequency(word) {
   }
   word = "helloman";
   console.log(frequency(word));
-  
+  */
+
+function frequency() {
+  let word = "heeelloonppt";
+  let check = {};
+  for (let i = 0; i < word.length; i++) {
+    if (check[word[i]]) {
+      check[word[i]]++;
+    } else {
+      check[word[i]] = 1;
+    }
+  }
+  console.log(check);
+}
+frequency();

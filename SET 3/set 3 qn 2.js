@@ -2,15 +2,16 @@
 
 // Declaring the variable for the array.
 
-let numbers = [2, 4, 8];
-
 // Function to get the sum.
 
-function sumArray(sum) {
-  for (let i = 0; i <= numbers.length; i++) {
-    //sum = numbers[i] + numbers[i++];
-    sum += numbers;
-    return sum;
+function sumArray() {
+  let numbers = [2, 4,2, 8];
+  let sum = 0;
+
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
   }
+  console.log(sum);
 }
-console.log(sumArray());
+
+sumArray();

@@ -4,23 +4,40 @@
 
 // Declaring varibales of strings
 
-let sentence = "hello world";
-let capital = sentence.toLocaleUpperCase().charAt(0);
-let capital2 = sentence.charAt(0).toLocaleUpperCase().split('').concat(sentence.charAt(1)).join("");
-//let change = reverseString.split('').reverse().join('');
+function capitalizes(){
+let sentence = prompt ("Enter word ");
+let wordarray = sentence.split(" ");
+let capital = [];
 
-console.log(capital);
-console.log(capital2);
+for (let i = 0; i < wordarray.length; i++){
+    let word = wordarray[i];
+    //let firstLetter = word.charAt[0].toUpperCase();
+    let firstLetter = word.charAt(0).toUpperCase();
+    let restOfTheWord = word.slice(1);
+    let capitalizedWord = firstLetter + restOfTheWord;
+    capital.push(capitalizedWord);
+    
+}
+console.log(capital.join(" "));
+
+}
+capitalizes();
 
 /*
-    let cap = sentence.charAt(0).split('');
-console.log(cap);
 
-function capit(){
-    for (i = 0; i < sentence.length; i++ ){
-        if(indexof.sentence() == 0){
-            return charAt(0).toLocaleUpperCase
-        }
+function capitalize() {
+    let words = prompt("Enter words: ");
+    let wordArray = words.split(" ");
+    let capitalizedWords = [];
+    
+    for(let i = 0; i < wordArray.length; i++){
+        let word = wordArray[i];
+        let firstLetter = word.charAt(0).toUpperCase();
+        let restOfWord = word.slice(1);
+        let capitalizedWord = firstLetter + restOfWord;
+        capitalizedWords.push(capitalizedWord);
     }
-}console.log(capit(sentence));
+    console.log(capitalizedWords.join(" "));
+}   
+capitalize();
 */

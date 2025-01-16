@@ -6,8 +6,11 @@
 let digit = prompt("Please Enter a Digit");
 
 //function to check the status of the value entered.
+console.log(digit % 2 === 0 ? "EVEN" : "ODD");
 
+/*
 function checkDigit() {
+ 
   if (digit % 2 == 0) {
     console.log(digit, "Digit is Even");
   } else {
@@ -16,3 +19,4 @@ function checkDigit() {
 }
 
 console.log(checkDigit(digit));
+*/

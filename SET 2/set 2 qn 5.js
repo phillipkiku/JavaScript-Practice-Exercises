@@ -2,14 +2,14 @@
 
 // declaring the starting variable.
 
-let number = 10;
-
 // While loop to run the variable.
-
-while(i < number){
-    multiply = number % 3;
-    console.log(number);
-    i++;
+function multiples() {
+  let number = 0;
+  let multiple = 5;
+  while (number < multiple) {
+    console.log(number * 3);
+    number++;
+  }
 }
-console.log();
-//console.log(multiply(number));
+
+multiples();

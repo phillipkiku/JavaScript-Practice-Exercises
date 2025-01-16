@@ -3,10 +3,12 @@
 
 // declaring how the variable will be entered.
 
-let names = prompt("Please Enter your Name");
-
 // function to run the variable.
-function greet(){
-    console.log("Hello,",names,"!");
+function greet() {
+  let names = prompt("Please Enter your Name");
+
+  //console.log(`Hello, ${names} !`);
+  alert(`Hello, ${names} !`);
 }
-console.log(greet(names));
+//console.log(greet(names));
+greet();
