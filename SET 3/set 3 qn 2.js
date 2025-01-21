@@ -1,17 +1,19 @@
-//A function sumArray that takes an array of numbers and returns their sum.
+//A program that counts
+// how many times the letter "a" appears in the string
+//  "JavaScript is amazing!".
 
-// Declaring the variable for the array.
+function word() {
+  // let sentence = "JavaScript is amazing!";
+  // let letter = "a";
+  let sentence = prompt("Please enter sentence");
+  let letter = prompt("Please enter letter to be counted");
+  let count = 0;
 
-// Function to get the sum.
-
-function sumArray() {
-  let numbers = [2, 4,2, 8];
-  let sum = 0;
-
-  for (let i = 0; i < numbers.length; i++) {
-    sum += numbers[i];
+  for (let i = 0; i < sentence.length; i++) {
+    if (sentence[i] === letter) {
+      count++;
+    }
   }
-  console.log(sum);
+  console.log(`The letter ${letter} appears ${count} times.`);
 }
-
-sumArray();
+word();
