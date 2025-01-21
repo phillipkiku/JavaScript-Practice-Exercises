@@ -5,6 +5,6 @@ let number = 10;
 
 // Loop to run numbers.
 
-for(let i = 1; i <= number; i++){
-    console.log(i);
+for (let i = 1; i <= number; i++) {
+  console.log(i);
 }
